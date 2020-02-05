@@ -1,0 +1,21 @@
+'''Q1 --Write a Python program to find those numbers which are divisible by 7 and multiple of 5, 
+between 1500 and 2700 (both included). '''
+A=int(input("lower range :"))
+B=int(input("upper range :"))
+for i in range(A,B):
+    if(i%5==0 and i%7==0):
+        print(i)
+        
+'''Q2 Write a Python program to construct the following pattern,
+ using a nested for loop.
+* 
+* *
+* * *
+* * * *
+* * * * *
+* * * * 
+* * * 
+* *
+*
+'''
+for i in range()
